@@ -1,0 +1,162 @@
+{
+  "run_id": "2026-11-21_174100420053_0b1336a7",
+  "checked_at_utc": "2026-11-21T17:41:53.965647+00:00",
+  "status": "failed",
+  "failed_checks": [
+    "West Campus",
+    "Warren Towers",
+    "Marciano Commons"
+  ],
+  "halls": {
+    "West Campus": {
+      "dining_hall": "West Campus",
+      "source_url": "https://www.bu.edu/dining/location/west/",
+      "items_seen": 121,
+      "valid_records": 121,
+      "invalid_records": 0,
+      "extraction_failures": [],
+      "items_without_nutrition_wrapper": 2,
+      "records_with_complete_core_nutrients": 119,
+      "missing_field_counts": {
+        "allergens": 59,
+        "calcium_dv": 2,
+        "calories": 2,
+        "carbohydrates_g": 2,
+        "cholesterol_mg": 2,
+        "fiber_g": 2,
+        "ingredients": 2,
+        "iron_dv": 2,
+        "potassium_dv": 2,
+        "protein_g": 2,
+        "saturated_fat_g": 2,
+        "serving_size": 2,
+        "sodium_mg": 2,
+        "sugars_g": 2,
+        "total_fat_g": 2,
+        "trans_fat_g": 2,
+        "vitamin_d_dv": 2
+      },
+      "allergen_status_counts": {
+        "allergens_listed": 62,
+        "empty_allergen_list": 52,
+        "explicitly_unavailable": 5,
+        "missing_nutrition_wrapper": 2
+      },
+      "dates": [
+        "2026-11-21"
+      ],
+      "occurrences_by_date_meal": {
+        "2026-11-21 | Breakfast": 29,
+        "2026-11-21 | Dinner": 46,
+        "2026-11-21 | Lunch": 46
+      },
+      "errors": [
+        "Expected 7 menu dates; found 1"
+      ],
+      "warnings": [
+        "2 records have unknown calories; values retained as null",
+        "59 records have unknown allergens; values retained as null"
+      ]
+    },
+    "Warren Towers": {
+      "dining_hall": "Warren Towers",
+      "source_url": "https://www.bu.edu/dining/location/warren/",
+      "items_seen": 97,
+      "valid_records": 97,
+      "invalid_records": 0,
+      "extraction_failures": [],
+      "items_without_nutrition_wrapper": 8,
+      "records_with_complete_core_nutrients": 89,
+      "missing_field_counts": {
+        "allergens": 48,
+        "calcium_dv": 8,
+        "calories": 8,
+        "carbohydrates_g": 8,
+        "cholesterol_mg": 8,
+        "fiber_g": 8,
+        "ingredients": 8,
+        "iron_dv": 8,
+        "potassium_dv": 8,
+        "protein_g": 8,
+        "saturated_fat_g": 8,
+        "serving_size": 8,
+        "sodium_mg": 8,
+        "sugars_g": 8,
+        "total_fat_g": 8,
+        "trans_fat_g": 8,
+        "vitamin_d_dv": 8
+      },
+      "allergen_status_counts": {
+        "allergens_listed": 49,
+        "empty_allergen_list": 32,
+        "explicitly_unavailable": 8,
+        "missing_nutrition_wrapper": 8
+      },
+      "dates": [
+        "2026-11-21"
+      ],
+      "occurrences_by_date_meal": {
+        "2026-11-21 | Breakfast": 12,
+        "2026-11-21 | Dinner": 45,
+        "2026-11-21 | Lunch": 40
+      },
+      "errors": [
+        "Expected 7 menu dates; found 1"
+      ],
+      "warnings": [
+        "8 records have unknown calories; values retained as null",
+        "48 records have unknown allergens; values retained as null"
+      ]
+    },
+    "Marciano Commons": {
+      "dining_hall": "Marciano Commons",
+      "source_url": "https://www.bu.edu/dining/location/marciano/",
+      "items_seen": 84,
+      "valid_records": 84,
+      "invalid_records": 0,
+      "extraction_failures": [],
+      "items_without_nutrition_wrapper": 4,
+      "records_with_complete_core_nutrients": 80,
+      "missing_field_counts": {
+        "allergens": 30,
+        "calcium_dv": 4,
+        "calories": 4,
+        "carbohydrates_g": 4,
+        "cholesterol_mg": 4,
+        "fiber_g": 4,
+        "ingredients": 4,
+        "iron_dv": 4,
+        "potassium_dv": 4,
+        "protein_g": 4,
+        "saturated_fat_g": 4,
+        "serving_size": 4,
+        "sodium_mg": 4,
+        "sugars_g": 4,
+        "total_fat_g": 4,
+        "trans_fat_g": 4,
+        "vitamin_d_dv": 4
+      },
+      "allergen_status_counts": {
+        "allergens_listed": 54,
+        "empty_allergen_list": 22,
+        "explicitly_unavailable": 4,
+        "missing_nutrition_wrapper": 4
+      },
+      "dates": [
+        "2026-11-21"
+      ],
+      "occurrences_by_date_meal": {
+        "2026-11-21 | Breakfast": 13,
+        "2026-11-21 | Dinner": 35,
+        "2026-11-21 | Lunch": 36
+      },
+      "errors": [
+        "Expected 7 menu dates; found 1"
+      ],
+      "warnings": [
+        "4 records have unknown calories; values retained as null",
+        "30 records have unknown allergens; values retained as null"
+      ]
+    }
+  }
+}
