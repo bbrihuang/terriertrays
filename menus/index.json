@@ -1,0 +1,145 @@
+{
+ "schemaVersion": 1,
+ "dataVersion": "4374c617cc0cc2e8",
+ "generatedAt": "2026-11-27T19:34:11.164Z",
+ "timezone": "America/New_York",
+ "allergyNotice": "BU Dining warns that ingredient substitutions, formulation changes and kitchen cross-contact can occur, and no menu item is guaranteed allergen-free. If you have a food allergy, talk with BU Dining staff before eating.",
+ "freshness": {
+  "basis": "refresh_run_start",
+  "basisAt": "2026-11-15T17:18:18+00:00",
+  "checkedAt": "2026-11-15T17:20:30.413380+00:00",
+  "validatorStatus": "fresh",
+  "maxAgeHours": 24,
+  "expiryHours": 48,
+  "requestedDates": [
+   "2026-11-15",
+   "2026-11-16",
+   "2026-11-17",
+   "2026-11-18",
+   "2026-11-19",
+   "2026-11-20",
+   "2026-11-21"
+  ],
+  "availableDates": [
+   "2026-11-15",
+   "2026-11-16",
+   "2026-11-17",
+   "2026-11-18",
+   "2026-11-19",
+   "2026-11-20",
+   "2026-11-21"
+  ],
+  "missingDates": [],
+  "warnings": [],
+  "errors": []
+ },
+ "halls": [
+  {
+   "id": "west",
+   "name": "West Campus",
+   "source": "bu-html",
+   "sourceUrl": "https://www.bu.edu/dining/location/west/",
+   "status": "stale_after_failure",
+   "lastAttemptAt": "2026-11-27T19:34:11.164Z",
+   "lastSuccessfulFetchAt": "2026-11-15T17:18:18+00:00",
+   "note": "The latest refresh failed, so this is the previous snapshot.",
+   "dates": [
+    {
+     "date": "2026-11-20",
+     "file": "west/2026-11-20.json",
+     "itemCount": 147,
+     "meals": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+     ]
+    },
+    {
+     "date": "2026-11-21",
+     "file": "west/2026-11-21.json",
+     "itemCount": 124,
+     "meals": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warren",
+   "name": "Warren Towers",
+   "source": "bu-html",
+   "sourceUrl": "https://www.bu.edu/dining/location/warren/",
+   "status": "stale_after_failure",
+   "lastAttemptAt": "2026-11-27T19:34:11.164Z",
+   "lastSuccessfulFetchAt": "2026-11-15T17:18:18+00:00",
+   "note": "The latest refresh failed, so this is the previous snapshot.",
+   "dates": [
+    {
+     "date": "2026-11-20",
+     "file": "warren/2026-11-20.json",
+     "itemCount": 110,
+     "meals": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+     ]
+    },
+    {
+     "date": "2026-11-21",
+     "file": "warren/2026-11-21.json",
+     "itemCount": 99,
+     "meals": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "marciano",
+   "name": "Marciano Commons",
+   "source": "bu-html",
+   "sourceUrl": "https://www.bu.edu/dining/location/marciano/",
+   "status": "stale_after_failure",
+   "lastAttemptAt": "2026-11-27T19:34:11.164Z",
+   "lastSuccessfulFetchAt": "2026-11-15T17:18:18+00:00",
+   "note": "The latest refresh failed, so this is the previous snapshot.",
+   "dates": [
+    {
+     "date": "2026-11-20",
+     "file": "marciano/2026-11-20.json",
+     "itemCount": 119,
+     "meals": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+     ]
+    },
+    {
+     "date": "2026-11-21",
+     "file": "marciano/2026-11-21.json",
+     "itemCount": 106,
+     "meals": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fenway",
+   "name": "The Fenway Dining Hall",
+   "source": "sodexo-api",
+   "sourceUrl": "https://bufenway.sodexomyway.com/en-us/locations/the-fenway-dining-hall",
+   "status": "not_configured",
+   "lastAttemptAt": "2026-11-07T22:11:40.055Z",
+   "lastSuccessfulFetchAt": null,
+   "note": "The Fenway menu feed is not connected yet (no API key configured for the collector).",
+   "dates": []
+  }
+ ]
+}
